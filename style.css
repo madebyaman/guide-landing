@@ -348,7 +348,8 @@ template {
   display: none;
 }
 
-/* Block Styles
+/*
+Block Styles
 */
 
 body {
@@ -356,11 +357,13 @@ body {
   font-size: 17px;
   line-height: 1.5;
   color: #4a5568;
+  background: #ffe4df;
 }
 
 h1,
 h2 {
   line-height: 1.2;
+  margin-top: 0;
 }
 
 h1 {
@@ -394,11 +397,19 @@ img {
   height: auto;
 }
 
+/*
+Layout Styles
+*/
+
 .container {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
 }
+
+/*
+Hero Styles
+*/
 
 .hero {
   padding: 40px 0;
@@ -421,9 +432,9 @@ img {
   padding: 1.5em;
 }
 
-body {
-  background: #ffe4df;
-}
+/*
+Card Styles
+*/
 
 .card:nth-child(1) {
   --color: #319795;
@@ -539,6 +550,10 @@ body {
   margin: 1.5em 0;
 }
 
+/*
+Subscription Box Styles
+*/
+
 .subscribe {
   background: #805ad5;
   color: white;
@@ -578,10 +593,6 @@ body {
   .subscribe .container {
     grid-template-columns: 2fr 1fr;
   }
-}
-
-h2 {
-  margin-top: 0;
 }
 
 .subscribe__text-container p {

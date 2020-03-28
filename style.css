@@ -605,7 +605,7 @@ Subscription Box Styles
   gap: 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .subscribe__form-container {
     grid-template-columns: 4fr 1fr;
   }
